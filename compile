@@ -1,0 +1,4 @@
+#! /bin/bash
+g++ -c -std=c++11 utils.cpp 							# compile the utils library with cpp 2011 standard
+g++ -c steppenwind.cpp -pthread -std=c++11					# compile the main cde, same standard, use multithreading support
+g++ steppenwind.o -o steppenwind -pthread -std=c++11 -Wl,--no-as-needed		#

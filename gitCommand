@@ -1,0 +1,13 @@
+#!/bin/bash
+git init				# initialize
+git remote add origin https://github.com/naturalmechanics/Steppenwind	# added remote
+
+	echo "Uploadable files are : " & ls	# got files list
+	echo "Add space separated files now : ->"
+read files
+git add ${files}
+	
+	echo "Enter commit message"
+read msg
+git commit -m "${msg}"
+

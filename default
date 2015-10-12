@@ -1,0 +1,9 @@
+steppenwind_log : /projects/Log/steppenwind.log
+steppenwind_usercommands : /projects/Steppenwind/current/usercommands.set
+steppenwind_stack : /projects/MODELS/solidPhysics/rotation - 1/steppenwind.stack
+steppenwind_downlinkfolder : /projects/MODELS/solidPhysics/rotation - 1/
+steppenwind_messagebus : /projects/MODELS/solidPhysics/rotation - 1/steppenwind.uplink
+steppenwind_messagebus_driver : /projects/CODES/Flamenco/flamenco.sh
+steppenwind_messagebus_processed : /projects/MODELS/solidPhysics/rotation - 1/steppenwind.uplink
+steppenwind_msgbuscommands : /projects/CODES/Steppenwind 4.0/messagebuscommands.set
+steppenwind_commandinfo_separator : ;

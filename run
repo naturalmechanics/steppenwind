@@ -1,0 +1,2 @@
+./steppenwind --configFilePath /media/projects/solidPhysics/Rotation/rotation_model_one_config --no-messagebus-manager
+
