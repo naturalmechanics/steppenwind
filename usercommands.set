@@ -1,0 +1,15 @@
+acquire : bash;/home/vero/Commands/acquireSuite.sh;2>;/tmp/study.sessionerror;--default
+analyze : none
+simulate : bash;/home/vero/Commands/simulationSuite.sh;>;/tmp/simulate.sessionlog
+model : bash;/home/vero/Commands/modelSuite.sh;>;/tmp/model.sessionlog
+experiment : none
+compute : bash;/home/vero/Commands/computeSuite.sh;>;/tmp/model.sessionlog;2>;/tmp/study.sessionerror
+map : bash;
+verify : none
+transfer : none
+visualize : 
+web : bash;/home/vero/Commands/webSuite.sh;>;/tmp/web.sessionlog# caviramus et all
+plan : bash;/home/vero/Commands/planSuite.sh; # Cnidarion, Yed, Diagram, Pahu .. 
+maintain : bash;/home/vero/Commands/maintainSuite.sh;>;/tmp/maintain.sessionlog;2>;/tmp/maintain.sessionerror # starts another script tailor made for the particular project.
+work : bash;/home/vero/Commands/workSuite.sh; # any general trigger
+help : bash;/home/vero/Commands/helpSuite.sh;2>;/tmp/maintain.sessionerror
