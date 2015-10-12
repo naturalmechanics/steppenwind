@@ -11,3 +11,12 @@ git add ${files}
 read msg
 git commit -m "${msg}"
 
+	echo "This is your Status : "
+	git status
+	git remote -v
+
+	echo "continue upload? [y/n]"
+read resp
+if [ $resp == 'y' ]
+	git push
+fi
