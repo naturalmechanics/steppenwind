@@ -18,5 +18,6 @@ git commit -m "${msg}"
 	echo "continue upload? [y/n]"
 read resp
 if [ $resp == 'y' ]
+then
 	git push
 fi
