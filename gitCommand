@@ -1,6 +1,6 @@
 #!/bin/bash
 git init				# initialize
-git remote add origin https://github.com/naturalmechanics/Steppenwind	# added remote
+git remote add origin https://github.com/naturalmechanics/steppenwind.git # added remote
 
 	echo "Uploadable files are : " & ls	# got files list
 	echo "Add space separated files now : ->"
@@ -19,5 +19,5 @@ git commit -m "${msg}"
 read resp
 if [ $resp == 'y' ]
 then
-	git push
+	git push origin master
 fi
