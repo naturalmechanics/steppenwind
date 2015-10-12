@@ -1,0 +1,8 @@
+new-session -d
+split-window -d -t 0 -v
+
+
+send-keys -t 0 'nano' enter C-l
+send-keys -t 0 ':' enter
+
+attach
